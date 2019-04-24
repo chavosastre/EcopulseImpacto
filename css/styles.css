@@ -1,0 +1,205 @@
+/* Font families */
+/* ==== Google font ==== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  font-family:'Open Sans', Arial, sans-serif;
+  padding-top: 10px;
+  background-color: #424242;
+}
+
+div.espacioTop {
+  padding-top: 150px;
+}
+
+div.sinborde{
+  border-width: 0;
+}
+
+div.gris{
+  background-color: #424242;
+}
+
+div.blanco{
+  background-color: white;
+}
+
+div.arbol{
+  background-color: #199965;
+  color: #fff;
+}
+
+div.gas{
+  background-color: #62a879;
+  color: #fff;
+}
+
+div.co2{
+  background-color: #277c5b;
+  color: #fff;
+}
+
+p.titulo{
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bold;
+  font-family:"Open Sans" !important;
+  color: #fff;
+}
+
+p.subtitulo{
+  font-size: 3vw;
+  text-align: center;
+  font-weight: bold;
+  font-family:"Open Sans" !important;
+  color: #fff;
+}
+
+p.numeros{
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bold;
+  font-family:"Open Sans" !important;
+}
+
+
+p.texto01{
+  font-size: 2vw;
+  font-weight: bold;
+  font-family:"Open Sans" !important;
+}
+
+p.equivalencia{
+  font-size: 1vw;
+  font-family:"Open Sans" !important;
+}
+
+footer{
+  background: #424242;
+}
+
+.logotipo{
+  width: 100%;
+}
+
+img.figuras{
+  width: 100%;
+}
+
+/* reglas CSS para formulario */
+/* .form-consulta {
+  max-width: 500px; 
+  background: #424242; 
+  padding: 25px; 
+  font-family: 'Source Sans Pro', 
+  sans-serif;
+}
+
+.campo-form {
+  width:100%; 
+  height:36px; 
+  margin:2px 0 6px; 
+  padding-left:6px; 
+  box-sizing: border-box; 
+  border-radius:3px; 
+  border:0; 
+  font-family: 'Source Sans Pro', 
+  sans-serif; 
+  font-size:1em;
+}
+
+textarea {
+  min-height: 150px!important;
+}
+
+.btn-form {
+  display: inline-block; 
+  border:0; 
+  background: #000; 
+  height: 46px; 
+  line-height: 46px; 
+  padding: 0 20px; 
+  border-radius: 6px; 
+  color:#fff; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+  letter-spacing: 1px
+}
+
+.btn-form:hover {
+  background: #444
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form-center { */
+  /* height: 150px; */
+  /*IMPORTANTE*/
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* autoajuste */
+/* @media (max-width: 720px) {
+    div.barra{
+      font-size: 5vw;
+      text-align: center;
+      font-weight: bold;
+      font-family:"Open Sans" !important;
+      height: 140px;
+      border-radius:15px 15px;
+    }
+
+    p.titulo{
+      font-size: 4vw;
+      text-align: center;
+      font-weight: bold;
+      font-family:"Open Sans" !important;
+    }
+    
+    p.titulogris{
+      font-size: 5vw;
+      color: #424242;
+      text-align: center;
+      font-weight: bold;
+      font-family:"Open Sans" !important;
+    }
+
+    p.subtitulo{
+      font-size: 5vw;
+      text-align: center;
+      font-weight: bold;
+      font-family:"Open Sans" !important;
+    }
+    
+    p.numeros{
+      font-size: 8vw;
+      text-align: center;
+      font-weight: bold;
+      font-family:"Open Sans" !important;
+    }
+    
+     */
+   
+    /* p.equivalencia{
+      font-size: 3vw;
+      font-family:"Open Sans" !important;
+    } */
+/* 
+    img.figuras{
+      width: 50%;
+    }
+
+    img.logotipo{
+      width: 40%;
+    }
+  }  */
