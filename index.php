@@ -13,6 +13,12 @@
 </head>
 
 <body>
+	<?php
+	$total =  33.69;
+	$CO2 = round(($total * 1000000) / 2.015625 / 1000,1);
+    $arboles = round($CO2 * 25.3368,0);
+    $gasolina = round(($total * 1000000)/ 2.66970,0);
+	?>
 	<!-- Page Content -->
 	<div class="container-fluid">
 		<!-- <div class="row">
@@ -48,7 +54,7 @@
 			</div>
 			<div class="col-6 text-center">
 				<p class="titulo">
-					5234 GW Instalados
+				<?php echo "$total" ?> GW Instalados
 				</p>
 			</div>
 			<div class="col-3">
@@ -78,30 +84,28 @@
 							<div class="card arbol">
 								<img class="card-img-top" src="img/arboles-02.png" alt="">
 								<div class="card-body">
-									<p class="card-title text-center numeros">25482</p>
+									<p class="card-title text-center numeros"><?php echo number_format($arboles); ?></p>
 									<p class="card-text text-center texto01">Árboles sin talar</p>
 								</div>
-								<p class="card-footer equivalencia">
-									Equivalente a formula cada arbol 3 mts
+								<p class="card-footer equivalencia text-center">
+									Equivalente a <?php echo number_format($arboles * 9); ?> mt2
 								</p>
 							</div>
-							<!-- <?php echo number_format($arboles); ?> -->
 						</div><!-- Termina Árboles -->
 
 						<!-- Gasolina -->
 						<div class="col-lg-4 col-md-4 col-xs-12">
 							<!-- 	<div class="row"> -->
 							<div class="card gas">
-								<img class="card-img-top" src="img/arboles-02.png" alt="">
+								<img class="card-img-top" src="img/gasolina-03.png" alt="">
 								<div class="card-body">
-									<p class="card-title text-center numeros">25482</p>
+									<p class="card-title text-center numeros"><?php echo number_format($gasolina); ?></p>
 									<p class="card-text text-center texto01">Litros de gasolina ahorrados</p>
 								</div>
 								<p class="card-footer equivalencia">
 									Equivalente a formula cada arbol 3 mts
 								</p>
 							</div>
-							<!-- <?php echo number_format($gasolina); ?> -->
 						</div><!-- Termina Gasolina -->
 
 
@@ -109,16 +113,15 @@
 						<div class="col-lg-4 col-md-4 col-xs-12">
 							<!-- 	<div class="row"> -->
 							<div class="card co2">
-								<img class="card-img-top" src="img/arboles-02.png" alt="">
+								<img class="card-img-top" src="img/co2-04.png" alt="">
 								<div class="card-body">
-									<p class="card-title text-center numeros">25482</p>
+									<p class="card-title text-center numeros"><?php echo number_format($CO2); ?></p>
 									<p class="card-text text-center texto01">Toneladas de CO2 reducidas</p>
 								</div>
 								<p class="card-footer equivalencia">
 									Equivalente a formula cada arbol 3 mts
 								</p>
 							</div>
-							<!-- <?php echo number_format($CO2); ?> -->
 						</div><!-- Termina CO2 -->
 					</div> <!-- /.row -->
 				</div> <!-- /.col-lg-6 col-md-6 mb-12 -->
@@ -154,6 +157,23 @@
 		</div>
 	</div>
 
+	<div class="container-fluid espacioTop">
+		<div class="col-lg-12">
+			<div class="row">
+				<div class="col-4 text-center">
+					<!-- Nada aquí -->
+				</div>
+				<div class="col-4 text-center">
+					<a href="residencial.php" target="_blank"> 
+						<button class="button button1 btn-block">Proyectos Residenciales</button>
+					</a>
+				</div>
+				<div class="col-4 text-center">
+					<!-- Nada aquí -->
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Footer -->
 	<footer class="py-5">
