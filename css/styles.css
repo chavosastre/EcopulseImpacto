@@ -12,6 +12,7 @@ body{
   font-family:'Open Sans', Arial, sans-serif;
   padding-top: 10px;
   background-color: #424242;
+  color: white;
 }
 
 div.espacioTop {
@@ -32,17 +33,14 @@ div.blanco{
 
 div.arbol{
   background-color: #199965;
-  color: #fff;
 }
 
 div.gas{
   background-color: #62a879;
-  color: #fff;
 }
 
 div.co2{
   background-color: #277c5b;
-  color: #fff;
 }
 
 p.titulo{
@@ -50,7 +48,7 @@ p.titulo{
   text-align: center;
   font-weight: bold;
   font-family:"Open Sans" !important;
-  color: #fff;
+  text-shadow: -5px 5px 5px #f45131;
 }
 
 p.subtitulo{
@@ -58,7 +56,6 @@ p.subtitulo{
   text-align: center;
   font-weight: bold;
   font-family:"Open Sans" !important;
-  color: #fff;
 }
 
 p.numeros{
