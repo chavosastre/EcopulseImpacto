@@ -14,24 +14,14 @@
 
 <body>
 	<?php
-	$total =  33.69;
+	$total =  34.41;
 	$CO2 = round(($total * 1000000) / 2.015625 / 1000, 1);
 	$arboles = round($CO2 * 25.3368, 0);
 	$gasolina = round(($total * 1000000) / 2.66970, 0);
 	?>
 	<!-- Page Content -->
 	<div class="container-fluid">
-		<!-- <div class="row">
-			<div class="col-lg-12">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<p class="texto01">
-							Medición total de energía
-						</p>
-					</div>
-				</div>
-			</div>
-		</div> -->
+
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="row">
